@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MainSistemaLivraria {
+public class Main {
     static Scanner tec = new Scanner(System.in);
 
     static ArrayList<Filial> listaFiliais = new ArrayList<>();
@@ -179,7 +179,7 @@ public class MainSistemaLivraria {
         System.out.println("Arquivo carregado com sucesso!");
     }
 
-// opcao 9 do menu:
+    // opcao 9 do menu:
     public static void atualizaArquivoDadosLivraria () throws IOException {
         FileOutputStream arquivoDadosLivraria = new FileOutputStream("src/dadoslivraria.txt");
         PrintWriter escreveArquivo = new PrintWriter(arquivoDadosLivraria);
