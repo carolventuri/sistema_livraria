@@ -1,2 +1,2 @@
 # sistema_livraria
- Sistema de Gerenciamento de Estoque de Livraria
+ Sistema para Gerenciamento de Estoque de Livraria
